@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3308/springboot?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false
+    driverClassName: com.mysql.jdbc.Driver
+    username: root
+    password:
+  jpa:
+      database: MySQL
+      show-sql: true
+      format_sql: true  #对输出的sql格式化
+      hibernate:
+        naming_strategy: org.hibernate.cfg.ImprovedNamingStrategy
