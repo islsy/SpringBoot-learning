@@ -1,2 +1,0 @@
-web1  使用SpringBoot开发Web项目
-web2  使用SpringBoot开发web项目添加HTTPS支持
